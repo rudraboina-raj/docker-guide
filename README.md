@@ -29,7 +29,7 @@ Brief:
 Commands :
 -------------------------------------------------------------------
 * To run image --
-docker run - it, imagename /docker run imagename
+docker run - it imagename /docker run imagename
 
 * list out all running Container --
 →docker ps
