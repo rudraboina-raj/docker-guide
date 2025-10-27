@@ -28,30 +28,30 @@ Brief:
 
 Commands :
 -------------------------------------------------------------------
-* To run image
+* To run image --
 docker run - it, imagename /docker run imagename
 
-* list out all running Container
+* list out all running Container --
 →docker ps
 
-*previously run containers
+*previously run containers --
 docker ps-a
 
-* To Stop the Container
+* To Stop the Container --
 → docker stop Container ID
 
-* remove.
+* remove --
 →docker rm Container ID
-* list all images
+* list all images --
 docker images
 
-*To remove image
+*To remove image --
 docker rmi image ID
 
-* To build dockerfile
+* To build dockerfile --
 → docker build -t my-python-app
 
-*To run along with port access
+*To run along with port access --
 → docker run - P 4000:80 my-python-app
 
 Dockerfile:
