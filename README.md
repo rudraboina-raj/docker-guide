@@ -58,7 +58,7 @@ Dockerfile:
 ----------------------------------------------------------------------
 1. FROM Python:3.8-slim
 
-2
+2.
 
 3. WORKDIR / app
 
@@ -89,8 +89,7 @@ Container:
 
 * And it is used from the host operating System that why it is light in weight in nature.
 
-* Why are containers light in weight ?
-------------------------------------------------------------------
+Why are containers light in weight ?
 → Containers do not have a full os and they use the resources from the basic os on which they are running on.
 
 *Buildah :
