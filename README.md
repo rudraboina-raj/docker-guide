@@ -8,51 +8,63 @@ Docker: - (Containerization)
 
 Advantages:
 --------------------------------------------------------------------
-①Portability :-
+* Portability :-
 you can actually take this application and run it wherever you want.
-②Consistency:-
+
+* Consistency:-
 Irrespective of what infra it is, where you ru  it, you will get o/p Consistently.
 
 * Solation :
 Isolation of application logic from infra dependency.
+
 * Efficiency.
 
 Brief:
-*Specific application that we want to run,  we need dependencies versions and all those requirements we write in Configuration file called dockerfile.
+* Specific application that we want to run,  we need dependencies versions and all those requirements we write in Configuration file called dockerfile.
 
 * image will run in host system that becomes a Container.
 
 * Single image we can turnup multiple Containers.
 
-*image is immutable (Cannot be modified).
+* image is immutable (Cannot be modified).
 
 Commands :
 -------------------------------------------------------------------
-* To run image --
+* To run image 
+
 docker run - it imagename /docker run imagename
 
-* list out all running Container --
-→docker ps
+* list out all running Container 
 
-*previously run containers --
+docker ps
+
+* previously run containers 
+
 docker ps-a
 
-* To Stop the Container --
-→ docker stop Container ID
+* To Stop the Container 
 
-* remove --
-→docker rm Container ID
-* list all images --
+docker stop Container ID
+
+* remove 
+
+docker rm Container ID
+
+* list all images 
+
 docker images
 
-*To remove image --
+* To remove image 
+
 docker rmi image ID
 
-* To build dockerfile --
-→ docker build -t my-python-app
+* To build dockerfile 
 
-*To run along with port access --
-→ docker run - P 4000:80 my-python-app
+docker build -t my-python-app
+
+* To run along with port access 
+
+docker run - P 4000:80 my-python-app
 
 Dockerfile:
 ----------------------------------------------------------------------
@@ -90,6 +102,7 @@ Container:
 * And it is used from the host operating System that why it is light in weight in nature.
 
 Why are containers light in weight ?
+----------------------------------------------------------------------
 → Containers do not have a full os and they use the resources from the basic os on which they are running on.
 
 *Buildah :
